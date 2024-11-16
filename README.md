@@ -1,10 +1,20 @@
-# sv
+# Portfolio Website with Svelte and Headless CMS
+
+Welcome to the repository for creating a portfolio website using Svelte and a Headless CMS! This project is a modern, lightweight, and highly customizable portfolio template designed to showcase my work and interest in Svelte.
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Svelte Framework: Fast and efficient front-end development with reactive components.
+- Headless CMS Integration: Seamless content management using your preferred CMS (e.g., Strapi, Contentful, Sanity, etc.).
+- Responsive Design: Fully mobile-friendly and adaptable to various screen sizes.
+- Dynamic Content: Fetch and display projects, blog posts, and other data dynamically from the CMS.
+- SEO-Optimized: Built-in support for meta tags, Open Graph, and performance optimizations.
+
+## Preview
+
+## Creating a project
 
 ```bash
 # create a new project in the current directory
@@ -36,3 +46,5 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+Happy Coding! 🎉
