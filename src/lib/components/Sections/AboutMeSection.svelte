@@ -1,7 +1,14 @@
 <script lang="ts">
-  import { SectionHeadline, Button } from "$components";
+  import { SectionHeadline, Button, Experience } from "$components";
   import image from "$assets/my-photo.jpeg";
   import { goto } from "$app/navigation";
+  import type { DevExperience } from "$components/types/sanity";
+
+  interface AboutMeProps {
+    workExperience: DevExperience[];
+  }
+
+  let { workExperience } = $props();
 
   function onclick() {
     goto("/#contact-form");
@@ -25,6 +32,7 @@
       <Button className="mt-m" {onclick}>Tell me about your project</Button>
     </div>
   </div>
+  <Experience {workExperience} />
 </section>
 
 <style>
